@@ -633,27 +633,27 @@ Config.Bammo = 100 --// Big Ammo //-- Default
 Config.Hammo = 50 --// Heavy Ammo //-- Default
 
 ESX.RegisterUsableItem('LightAmmo', function(source)
-    xPlayer.removeInventoryItem
+    xPlayer.removeInventoryItem('LightAmmo')
     AddAmmoToPed(xPlayer, G(SMG), Config.Lammo)
     TriggerClientEvent('esx:showNotification', source, "You Have:".. Config.Lammo .."~r~Light Ammo")
 end	
 
 ESX.RegisterUsableItem('SmallAmmo', function(source)
-    xPlayer.removeInventoryItem
+    xPlayer.removeInventoryItem('SmallAmmo')
     AddAmmoToPed(xPlayer, G(SMG), Config.Sammo)
     TriggerClientEvent('esx:showNotification', source, "You Have:".. Config.Sammo .."~r~Small Ammo")
 end	
 
 
 ESX.RegisterUsableItem('BigAmmo', function(source)
-    xPlayer.removeInventoryItem
+    xPlayer.removeInventoryItem('BigAmmo')
     AddAmmoToPed(xPlayer, G(SMG), Config.Bammo)
     TriggerClientEvent('esx:showNotification', source, "You Have:".. Config.Bammo .."~r~Big Ammo")
 end	
 
 
 ESX.RegisterUsableItem('HeavyAmmo', function(source)
-    xPlayer.removeInventoryItem
+    xPlayer.removeInventoryItem('HeavyAmmo')
     AddAmmoToPed(xPlayer, G(SMG), Config.Hammo)
     TriggerClientEvent('esx:showNotification', source, "You Have:".. Config.Hammo .."~r~Heavy Ammo")
 end	
