@@ -470,8 +470,7 @@ ESX.RegisterUsableItem('SmallArmour', function(source)
 			clapping = false
 		end
 	end    
-  end
-end) 
+  end)
 
 ESX.RegisterUsableItem('MedArmour', function(source)
 	local time = GetGameTimer(wait())
@@ -506,8 +505,7 @@ ESX.RegisterUsableItem('MedArmour', function(source)
 			clapping = false
 		end
 	end    
-  end
-end)
+  end)
 
 ESX.RegisterUsableItem('HeavyArmour', function(source)
 	local time = GetGameTimer(wait())
@@ -542,8 +540,7 @@ ESX.RegisterUsableItem('HeavyArmour', function(source)
 			clapping = false
 		end
 	end    
-  end
-end)
+  end)
 
 ESX.RegisterUsableItem('InvincibleArmour', function(source)
 	local time = GetGameTimer(wait())
@@ -579,8 +576,7 @@ ESX.RegisterUsableItem('InvincibleArmour', function(source)
 			clapping = false
 		end
 	end    
-  end
-end)
+  end)
 
 ESX.RegisterUsableItem('CrazyArmour', function(source)
 	local time = GetGameTimer(wait())
@@ -616,8 +612,7 @@ ESX.RegisterUsableItem('CrazyArmour', function(source)
 			clapping = false
 		end
 	end    
-  end
-end)
+  end)
 
 
 
