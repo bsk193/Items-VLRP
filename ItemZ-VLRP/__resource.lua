@@ -12,6 +12,7 @@ client_scripts {
 
 server_scripts { 
 	'@mysql-async/lib/MySQL.lua',
+        '@async/async.lua'
 	'@es_extended/locale.lua',
 	"itemS-VLRP.lua"
 }
