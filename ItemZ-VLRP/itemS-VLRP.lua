@@ -7,7 +7,7 @@
 
 
 local Config = {}
-ESX = {}
+Local ESX = {}
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
